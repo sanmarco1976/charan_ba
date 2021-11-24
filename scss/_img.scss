@@ -1,0 +1,75 @@
+.header {
+    .imgWpp,
+    .imgIg,
+    .imgFace {
+        width: 2rem;
+        height: 2rem;
+    }
+}
+
+.nav {
+    .nav__logo {
+        width: 20rem;
+        height: 12rem;
+    }
+}
+
+.intro__img--multi,
+.intro__img--proton,
+.intro__img--rgb,
+.intro__img--calida {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 3rem;
+}
+
+.tajetas__img {
+    width: 22rem;
+    height: 19rem;
+    border-radius: 2rem;
+}
+
+.dondeEncontrarnos__mapa {
+    width: 100%;
+    height: 27rem;
+}
+
+.card-group>.card {
+    flex: 0.3 0% !important;
+}
+
+.divCate1__imgCate {
+    width: 18rem;
+    height: 17rem;
+    border-radius: 2rem;
+}
+
+.btn.btn-secondary.dropdown-toggle {
+    width: 12rem;
+    height: 3rem;
+    background-color: black;
+}
+
+.wppContacto {
+    width: 10rem;
+    height: 10rem;
+}
+
+.footer__logo {
+    width: 9rem;
+    height: 9rem;
+    border-radius: 3rem;
+}
+
+.footer__img {
+    width: 2rem;
+    height: 2rem;
+    float: right;
+    margin-right: 2rem;
+}
+
+.tImg {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 1rem;
+}

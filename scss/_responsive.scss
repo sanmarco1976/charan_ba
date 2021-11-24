@@ -1,0 +1,637 @@
+@media only screen and (max-width: 10000px) {
+    .navbar {
+        display: none;
+    }
+    .dondeEncontrarnos__mapa {
+        margin-bottom: 1rem;
+    }
+}
+
+@media only screen and (max-width: 2560px) {
+    //     .nav .nav__bar ul li {
+    //         font-size: 3rem;
+    //     }
+    //     .header__titulo {
+    //         font-size: 10rem;
+    //     }
+    //     .header .imgWpp,
+    //     .header .imgIg,
+    //     .header .imgFace {
+    //         width: 6rem;
+    //         height: 6rem;
+    //     }
+    //     .nav .nav__logo {
+    //         width: 40rem;
+    //         height: 22rem;
+    //     }
+    //     .divCate1__pCate {
+    //         font-size: 4rem;
+    //     }
+    //     .divCate1__imgCate {
+    //         width: 35rem;
+    //         height: 33rem;
+    //     }
+    //     .descripcion,
+    //     .descripcion--mayor {
+    //         font-size: 4rem;
+    //     }
+    //     .body1 .btn-outline-warning {
+    //         width: 43rem;
+    //         font-size: 3rem;
+    //     }
+    //     .body1 .tablaHead .tablaHeadP,
+    //     .body1 .tablaHead .tablaHeadC,
+    //     .body1 .tablaHead .tablaHeadN {
+    //         font-size: 3rem;
+    //     }
+    //     .tdTitulo,
+    //     .tdPrecio,
+    //     .tNombre,
+    //     .tPrecio {
+    //         font-size: 2.8rem;
+    .tablaJs {
+        width: 100%;
+    }
+    .tdTitulo {
+        width: 700px;
+    }
+    .tdImg {
+        width: 600px;
+    }
+    .tImg {
+        width: 10rem;
+        height: 10rem;
+    }
+    .tdBorrar {
+        width: 220px;
+    }
+    .tdPrecio {
+        width: 600px;
+    }
+    .tCant {
+        width: 300px;
+    }
+    td.tdPrecio {
+        text-align: center;
+    }
+    .btn-close {
+        width: 6em;
+        height: 6em;
+    }
+    .tdCant-input {
+        width: 4rem;
+        font-size: 1.4rem;
+    }
+    .body1 .tablaHead .tablaHeadP,
+    .body1 .tablaHead .tablaHeadC,
+    .body1 .tablaHead .tablaHeadN {
+        font-size: 2rem;
+    }
+    .tdTitulo,
+    .tdPrecio,
+    .tNombre,
+    .tPrecio {
+        font-size: 2rem;
+    }
+    .body1 .precioTotal .comprar {
+        font-size: 2rem;
+    }
+    .body1 .precioTotal .totalCarrito,
+    .body1 .precioTotal .pTotal {
+        font-size: 2rem;
+    }
+}
+
+//     .body1 .precioTotal .comprar {
+//         font-size: 3rem;
+//     }
+//     .body1 .precioTotal .totalCarrito,
+//     .body1 .precioTotal .pTotal {
+//         font-size: 3rem;
+//     }
+//     .body1 .precioTotal {
+//         grid-template-columns: 30rem 20rem;
+//     }
+// }
+@media only screen and (max-width: 1440px) {
+    .tablaJs {
+        width: 100%;
+    }
+    .tdTitulo {
+        width: 550px;
+    }
+    .tdImg {
+        width: 220px;
+    }
+    .tdBorrar {
+        width: 220px;
+    }
+    .tdPrecio {
+        width: 260px;
+    }
+    .tCant {
+        width: 110px;
+    }
+    td.tdPrecio {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .nav .nav__bar ul li a {
+        font-size: 1.3rem;
+        margin-left: -2rem;
+    }
+    .justify-content-end {
+        justify-content: flex-start!important;
+    }
+    .nav .nav__logo {
+        width: 19rem;
+        height: 12rem;
+    }
+    .body {
+        .intro {
+            .intro__div {
+                grid-template-areas: " calida multi" "rgb proton";
+                .intro__img--multi,
+                .intro__img--proton,
+                .intro__img--rgb,
+                .intro__img--calida {
+                    margin-left: 1rem;
+                    width: 21rem;
+                    height: 19rem;
+                    border-radius: 3rem;
+                }
+            }
+        }
+        .intro__p {
+            font-size: 2.7rem;
+        }
+        .carousel,
+        .card {
+            margin-left: -2rem;
+        }
+        .tajetas__img {
+            margin-left: 2.3rem;
+            width: 16rem;
+            height: 15rem;
+            border-radius: 2rem;
+        }
+        .card-text:last-child {
+            width: 250%;
+            font-size: 1.4rem;
+        }
+        .carousel-item {
+            overflow: hidden;
+        }
+    }
+    .divCate1__imgCate {
+        width: 16rem;
+        height: 15rem;
+    }
+    form {
+        margin-left: 12rem;
+    }
+    .body1 .form-control {
+        width: 70%;
+    }
+    .body1 .bodyCate,
+    .body1 .bodyCate--acce,
+    .body1 .bodyCate--audio,
+    .body1 .bodyCate--belle,
+    .body1 .bodyCate--electro,
+    .body1 .bodyCate--hyd,
+    .body1 .bodyCate--ilu,
+    .body1 .bodyCate--segu {
+        grid-column-gap: 1rem;
+        grid-row-gap: 1rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .nav .nav__bar ul li a {
+        font-size: 1.1rem;
+        margin-left: -1.8rem;
+    }
+    .nav .nav__bar {
+        padding: 0rem
+    }
+    .nav .nav__logo {
+        width: 14rem;
+        height: 8rem;
+    }
+    .body {
+        .intro {
+            .intro__div {
+                grid-template-areas: " calida multi" "rgb proton";
+                .intro__img--multi,
+                .intro__img--proton,
+                .intro__img--rgb,
+                .intro__img--calida {
+                    margin-left: 1rem;
+                    width: 19rem;
+                    height: 17rem;
+                    border-radius: 3rem;
+                }
+            }
+        }
+        .intro__p {
+            font-size: 2.7rem;
+        }
+        .carousel,
+        .card {
+            margin-left: -2rem;
+        }
+        .tajetas__img {
+            margin-left: 2.3rem;
+            width: 11.9rem;
+            height: 12rem;
+            border-radius: 2rem;
+        }
+        .card-text:last-child {
+            width: 250%;
+            font-size: 1.4rem;
+        }
+        .carousel-item {
+            overflow: hidden;
+        }
+    }
+    .body1 .body__dondeEstamos .dondeEstamos .dondeEncontrarnos .dondeEncontrarnos__p .dondeEncontrarnos__p--texto {
+        margin-top: 1rem;
+    }
+    .body1 .body__dondeEstamos .dondeEstamos .dondeEncontrarnos .dondeEncontrarnos__mapa {
+        margin-right: 1rem;
+        width: 30rem;
+        height: 21rem;
+    }
+    .body1 .body__dondeEstamos .dondeEstamos .dondeEncontrarnos {
+        grid-template-columns: 1fr;
+        grid-template-areas: "info" "mapa" "horarios";
+    }
+    .divCate1__imgCate {
+        width: 11rem;
+        height: 12rem;
+    }
+    .descripcion {
+        font-size: 1.2rem;
+    }
+    .divCate1__pCate {
+        font-size: 1.4rem;
+    }
+    ol,
+    ul {
+        padding-left: 0rem;
+    }
+    form {
+        margin-left: 7rem;
+    }
+    .body1 .form-control {
+        width: 80%;
+    }
+    .body1 .btn-outline-warning {
+        width: 10rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .grilla {
+        grid-template-rows: 3.6rem auto auto auto auto;
+        grid-template-areas: "nav2" "header" "nav" "body" "footer";
+    }
+    .header {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        grid-template-areas: "icono" "titulo";
+        .header__titulo {
+            font-size: 3rem;
+        }
+        .header__icono {
+            grid-template-columns: 3.5rem 3.5rem 3.5rem 3fr;
+            gap: 0;
+            .imgWpp,
+            .imgIg,
+            .imgFace {
+                width: 2rem;
+                height: 2rem;
+            }
+        }
+    }
+    .nav {
+        display: flex;
+        grid-template-areas: "logo";
+        width: 100%;
+        .nav__logo {
+            width: 100%;
+            height: 10rem;
+        }
+        .nav__bar {
+            display: none;
+        }
+    }
+    .navbar {
+        display: flex;
+        grid-area: nav2;
+    }
+    .offcanvas-end {
+        width: 85%;
+        height: 100%;
+    }
+    .body .tarjetas .carousel-inner .carousel-control-next {
+        display: none;
+    }
+    .body {
+        .intro {
+            .intro__div {
+                grid-template-areas: " calida" "multi" "rgb" "proton";
+                .intro__img--multi,
+                .intro__img--proton,
+                .intro__img--rgb,
+                .intro__img--calida {
+                    margin-left: 1rem;
+                    width: 21rem;
+                    height: 19rem;
+                    border-radius: 3rem;
+                }
+            }
+        }
+        .intro__p {
+            font-size: 2.7rem;
+        }
+        .carousel,
+        .card {
+            margin-left: -2rem;
+        }
+        .tajetas__img {
+            margin-left: 2.3rem;
+            width: 20rem;
+            height: 19rem;
+            border-radius: 2rem;
+        }
+        .card-text:last-child {
+            width: 250%;
+            font-size: 1.4rem;
+        }
+        .carousel-item {
+            overflow: hidden;
+        }
+    }
+    .footer1 .footer {
+        grid-template-columns: auto auto;
+        grid-template-areas: "logo lista";
+        .footer__logo {
+            width: 6rem;
+            height: 6rem;
+        }
+    }
+    .body1 {
+        .header {
+            margin-top: 3.5rem;
+        }
+        .bodyCate {
+            grid-template-columns: 1fr;
+            grid-template-areas: "b1" "b2" "b3" "b4" "b5" "b6" "b7" "b8" "b9" "b10" "b11" "b12" "b13" "b14" "b15" "b16" "b17" "b18" "b19" "b20" "b21" "b22" "b23" "b24";
+        }
+        .bodyCate--acce {
+            grid-template-areas: "b1" "b2" "b3" "b4" "b5" "b6" "b7" "b8" "b9" "b10" "b11" "b12";
+        }
+        .bodyCate--audio {
+            grid-template-areas: "b1" "b2" "b3" "b4" "b5" "b6" "b7" "b8" "b9" "b10" "b11" "b12" "b13";
+        }
+        .bodyCate--belle {
+            grid-template-areas: "b1" "b2" "b3" "b4" "b5" "b6" "b7" "b8" "b9" "b10" "b11" "b12" "b13" "b14" "b15" "b16" "b17" "b18";
+        }
+        .bodyCate--electro {
+            grid-template-areas: "b1" "b2" "b3" "b4" "b5" "b6" "b7" "b8" "b9" "b10" "b11" "b12" "b13" "b14" "b15" "b16" "b17";
+        }
+        .bodyCate--hyd {
+            grid-template-areas: "b1" "b2" "b3" "b4" "b5" "b6" "b7" "b8" "b9" "b10" "b11" "b12" "b13" "b14" "b15" "b16" "b17" "b18" "b19" "b20" "b21" "b22" "b23";
+        }
+        .bodyCate--ilu {
+            grid-template-areas: "b1" "b2" "b3" "b4" "b5" "b6" "b7" "b8" "b9" "b10" "b11" "b12" "b13" "b14" "b15" "b16" "b17" "b18" "b19" "b20" "b21" "b22" "b23" "b24" "b25" "b26" "b27" "b28" "b29";
+        }
+        .bodyCate--segu {
+            grid-template-areas: "b1" "b2" "b3" "b4" "b5" "b6";
+        }
+        .body__dondeEstamos {
+            box-sizing: border-box;
+            .dondeEstamos {
+                grid-area: mapa;
+                display: grid;
+                .dondeEncontrarnos {
+                    grid-template-columns: 1fr;
+                    grid-template-areas: "info" "mapa" "horarios";
+                    margin-left: 0rem;
+                    .dondeEncontrarnos__ul {
+                        .btn.btn-secondary.dropdown-toggle {
+                            width: 7rem;
+                            height: 2rem;
+                        }
+                        ul.dropdown-menu.show {
+                            .dondeEncontrarnos__li--horarios {
+                                font-size: 0.8rem;
+                            }
+                        }
+                    }
+                    .dondeEncontrarnos__mapa {
+                        margin-left: 1rem;
+                        width: 23rem;
+                        height: 21rem;
+                    }
+                    .dondeEncontrarnos__p {
+                        margin-left: 1rem;
+                        .dondeEncontrarnos__p--texto {
+                            font-size: 1.6rem;
+                        }
+                        .colorDirecc {
+                            font-size: 1.6rem;
+                        }
+                    }
+                }
+            }
+        }
+        .contacto {
+            display: grid;
+            grid-template-areas: "titulo" "formulario" "wpp" "ig" "face";
+            justify-items: center;
+        }
+        .contacto__titulo {
+            grid-area: titulo;
+            text-align: center;
+        }
+        form {
+            margin-left: 0rem;
+        }
+        .wpp,
+        .facebook,
+        .instagram {
+            margin-top: 1rem;
+            grid-template-areas: "logo" "alerta";
+        }
+        .wppContacto {
+            grid-area: logo;
+            margin-bottom: 2rem;
+        }
+        .alert-warning {
+            width: 100%;
+            height: 83%;
+            margin-left: 0rem;
+        }
+        .footer1 .footer {
+            grid-template-columns: auto auto;
+            grid-template-areas: "logo lista";
+            .footer__logo {
+                width: 6rem;
+                height: 6rem;
+            }
+        }
+    }
+    .tImg {
+        width: 3rem;
+        height: 3rem;
+    }
+    .body1 .tablaHead .tablaHeadP,
+    .body1 .tablaHead .tablaHeadC,
+    .body1 .tablaHead .tablaHeadN {
+        font-size: 1rem;
+    }
+    .tdTitulo,
+    .tdPrecio,
+    .tNombre,
+    .tPrecio {
+        font-size: 1.2rem;
+    }
+    .tdCant-input {
+        width: 25px;
+    }
+    .body1 .btn-outline-warning {
+        width: 15rem;
+    }
+    .swal2-popup {
+        width: 22rem!important;
+    }
+    .swal2-container.swal2-center>.swal2-popup,
+    .swal2-container.swal2-center>.swal2-popup {
+        grid-column: 1;
+        grid-row: 1;
+        align-self: center;
+        justify-self: center;
+    }
+    .carousel-inner {
+        width: 90%;
+    }
+    .card-group {
+        width: 18rem;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    .body1 .body__dondeEstamos .dondeEstamos .dondeEncontrarnos .dondeEncontrarnos__mapa {
+        margin-left: 1rem;
+        width: 19rem;
+        height: 19rem;
+    }
+    .body .tajetas__img {
+        margin-left: 2.3rem;
+        width: 19rem;
+        height: 17rem;
+        border-radius: 2rem;
+    }
+    .body .intro .intro__div .intro__img--multi,
+    .body .intro .intro__div .intro__img--proton,
+    .body .intro .intro__div .intro__img--rgb,
+    .body .intro .intro__div .intro__img--calida {
+        width: 19rem;
+        height: 17rem;
+        margin-left: 0rem;
+    }
+    .carousel-inner {
+        width: 90%;
+    }
+    .card-group {
+        width: 18rem;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .body .tajetas__img {
+        margin-left: 2.3rem;
+        width: 14rem;
+        height: 14rem;
+        border-radius: 2rem;
+    }
+    .header .header__titulo {
+        font-size: 2.5rem;
+    }
+    .body .intro .intro__div .intro__img--multi,
+    .body .intro .intro__div .intro__img--proton,
+    .body .intro .intro__div .intro__img--rgb,
+    .body .intro .intro__div .intro__img--calida {
+        width: 14rem;
+        height: 14rem;
+        margin-left: 0rem;
+    }
+    .body1 .body__dondeEstamos .dondeEstamos .dondeEncontrarnos .dondeEncontrarnos__mapa {
+        margin-left: 1rem;
+        width: 18rem;
+        height: 18rem;
+    }
+    .body1 #secCate {
+        width: 19rem;
+    }
+    .divCate1__imgCate {
+        width: 12rem;
+        height: 12rem;
+    }
+    .carrusel-inner,
+    .card-group {
+        width: 20rem;
+    }
+    .body1 .tablaHead .tablaHeadP,
+    .tablaHead .tablaHeadC {
+        margin-right: 1rem;
+    }
+    .tdTitulo,
+    .tdPrecio,
+    .tNombre,
+    .tPrecio {
+        font-size: 1rem;
+    }
+    .nav .nav__logo {
+        width: 95%;
+    }
+    footer {
+        font-size: 0.8rem;
+    }
+    .carousel-inner {
+        width: 90%;
+    }
+    .card-group {
+        width: 18rem;
+    }
+    .body .intro__p {
+        font-size: 2.3rem;
+    }
+    .body1 .btn-outline-warning {
+        width: 13rem;
+    }
+    .tdTitulo {
+        padding: 0rem 0rem;
+    }
+    .tImg {
+        width: 2.6rem;
+        height: 2.6rem;
+    }
+    .body1 .bodyCate,
+    .body1 .bodyCate--acce,
+    .body1 .bodyCate--audio,
+    .body1 .bodyCate--belle,
+    .body1 .bodyCate--electro,
+    .body1 .bodyCate--hyd,
+    .body1 .bodyCate--ilu,
+    .body1 .bodyCate--segu {
+        margin: 0.6rem
+    }
+    .swal2-popup {
+        width: 19rem !important;
+    }
+}

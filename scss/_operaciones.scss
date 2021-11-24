@@ -1,0 +1,25 @@
+@for $i from 1 through 40 {
+    .divCate-#{$i} {
+        grid-area: b#{$i}
+    }
+}
+
+@for $i from 1 through 40 {
+    .divCate1--divCate#{$i} {
+        @extend .divCate1
+    }
+}
+
+.dondeEncontrarnos:hover {
+    transform: scale(1.06, 1.06);
+}
+
+#secCate:hover {
+    transform: scale(1.03, 1.03);
+}
+
+@mixin display {
+    display: grid;
+    grid-template-columns: auto;
+    grid-auto-rows: auto;
+}

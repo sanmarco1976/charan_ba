@@ -1,0 +1,386 @@
+@import "variables";
+@import "colores";
+@import "tipografia";
+@import "img";
+@import "bem";
+@import "operaciones";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grilla {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "header" "nav" "body" "footer";
+}
+
+.nav {
+    grid-area: nav;
+    display: grid;
+    grid-template-columns: auto 2fr;
+    grid-template-areas: "logo nave";
+    .nav__logo {
+        grid-area: logo;
+    }
+    .nav__bar {
+        grid-area: nave;
+        width: 100%;
+        margin: auto;
+        padding: 3.5rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        ul li {
+            list-style: none;
+            display: inline-block;
+            margin: 0 2rem;
+            position: relative;
+            font-size: 1.7rem;
+            a {
+                text-decoration: none;
+                color: $colorNegro;
+            }
+        }
+        ul li::before {
+            content: "";
+            height: 0.3rem;
+            width: 0%;
+            background: $colorSec;
+            position: absolute;
+            left: 0;
+            bottom: -0.5rem;
+            transition: 0.4s ease-out;
+        }
+        ul li:hover::before {
+            width: 100%;
+        }
+    }
+}
+
+.header {
+    grid-area: header;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 0px 0px;
+    grid-template-areas: "icono titulo";
+    .header__titulo {
+        grid-area: titulo;
+    }
+    .header__icono {
+        grid-area: icono;
+        display: grid;
+        margin-left: 1rem;
+        gap: 1rem;
+        grid-template-areas: "face wpp ig";
+        .imgWpp {
+            grid-area: wpp;
+        }
+        .imgFace {
+            grid-area: face;
+        }
+        .imgIg {
+            grid-area: ig;
+        }
+    }
+}
+
+.body {
+    grid-area: body;
+    grid-template-areas: "intro" "tarjetas";
+    width: 100%;
+    .intro {
+        grid-area: intro;
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-areas: "p" "img";
+        .intro__p {
+            grid-area: p;
+        }
+        .intro__div {
+            grid-area: img;
+            margin-bottom: 2rem;
+            margin-left: 2rem;
+            display: grid;
+            gap: 1.5rem;
+            grid-template-areas: " calida multi rgb proton";
+            .intro__img--multi {
+                grid-area: multi;
+            }
+            .intro__img--proton {
+                grid-area: proton;
+            }
+            .intro__img--calida {
+                grid-area: calida;
+            }
+            .intro__img--rgb {
+                grid-area: rgb;
+            }
+        }
+    }
+    .tarjetas {
+        grid-area: tarjetas;
+        margin-top: 10rem;
+        .carousel-inner {
+            margin-top: 2rem;
+            margin-left: 4rem;
+            align-items: center;
+            .carousel-control-next {
+                margin-right: -2rem;
+                overflow: hidden;
+            }
+            .card {
+                margin-top: 2rem;
+                width: 20%!important;
+            }
+        }
+    }
+    .card-group>.card:not(:last-child) .card-header,
+    .card-group>.card:not(:last-child) .card-img-top {
+        border-top-right-radius: 2rem;
+    }
+    .card-group>.card:not(:first-child) .card-header,
+    .card-group>.card:not(:first-child) .card-img-top {
+        border-top-left-radius: 2rem;
+    }
+}
+
+.footer1 {
+    grid-area: footer;
+    .footer {
+        display: grid;
+        margin-top: $margin1rem;
+        grid-template-rows: auto;
+        grid-template-columns: 1fr 1.3fr 1fr;
+        grid-template-areas: "logo none lista ";
+        align-items: center;
+        .footer__info {
+            grid-area: logo;
+        }
+        .footer__lista {
+            grid-area: lista;
+            .lista__li,
+            .lista__a {
+                text-decoration: none;
+                list-style: square;
+            }
+            .linea {
+                margin: 0rem;
+                width: 10rem;
+                color: black;
+            }
+        }
+    }
+}
+
+.body1 {
+    grid-template-areas: "header" "nav""seleccion" "body" "footer";
+    .bodyCate {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: "b1 b2 b3" "b4 b5 b6" "b7 b8 b9" "b10 b11 b12" "b13 b14 b15" "b16 b17 b18" "b19 b210 b21";
+        grid-column-gap: 3rem;
+        grid-row-gap: 3rem;
+        grid-area: body;
+        margin: $margin1rem;
+    }
+    .seleccion {
+        grid-area: seleccion;
+        .elegir {
+            grid-area: elegir;
+        }
+    }
+    .bodyCate--acce {
+        @extend .bodyCate;
+        grid-template-areas: "b1 b2 b3" "b4 b5 b6" "b7 b8 b9" "b10 b11 b12";
+    }
+    .bodyCate--audio {
+        @extend .bodyCate;
+        grid-template-areas: "b1 b2 b3" "b4 b5 b6" "b7 b8 b9" "b10 b11 b12" "b13 none none";
+    }
+    .bodyCate--belle {
+        @extend .bodyCate;
+        grid-template-areas: "b1 b2 b3" "b4 b5 b6" "b7 b8 b9" "b10 b11 b12" "b13 b14 b15" "b16 b17 b18";
+    }
+    .bodyCate--electro {
+        @extend .bodyCate;
+        grid-template-areas: "b1 b2 b3" "b4 b5 b6" "b7 b8 b9" "b10 b11 b12" "b13 b14 b15" "b16 b17 none";
+    }
+    .bodyCate--hyd {
+        @extend .bodyCate;
+        grid-template-areas: "b1 b2 b3" "b4 b5 b6" "b7 b8 b9" "b10 b11 b12" "b13 b14 b15" "b16 b17 b18" "b19 b210 b21" "b22 b23 none";
+    }
+    .bodyCate--ilu {
+        @extend .bodyCate;
+        grid-template-areas: "b1 b2 b3" "b4 b5 b6" "b7 b8 b9" "b10 b11 b12" "b13 b14 b15" "b16 b17 b18" "b19 b210 b21" "b22 b23 b4" "b25 b26 b27" "b28 b29 none";
+    }
+    .bodyCate--segu {
+        @extend .bodyCate;
+        grid-template-areas: "b1 b2 b3" "b4 b5 b6";
+    }
+    /* section de cada producto */
+    #secCate {
+        justify-items: center;
+        align-items: center;
+        overflow: auto;
+        border-radius: 1rem;
+        margin-bottom: $margin1rem;
+    }
+    .divCate1 {
+        grid-area: b1;
+    }
+    .divCate1 {
+        justify-items: center;
+        align-items: center;
+        display: grid;
+        grid-template-areas: "nom" "img" "des";
+        margin: $margin1rem;
+    }
+    .divCate1__pCate {
+        grid-area: nom;
+        align-self: center;
+    }
+    .divCate1__imgCate {
+        margin-top: $margin1rem;
+        margin-bottom: $margin1rem;
+        grid-area: img;
+    }
+    .descripcion {
+        text-transform: capitalize;
+        grid-area: des;
+    }
+    .descripcion--mayor {
+        margin-bottom: 1rem;
+    }
+    .btn-outline-warning {
+        width: 15rem;
+        align-self: flex-end;
+        font-size: 1.2rem;
+        margin-left: 1rem;
+    }
+    .body__dondeEstamos {
+        grid-area: body;
+        .dondeEstamos {
+            margin-top: 1rem;
+            .dondeEncontrarnos {
+                display: grid;
+                grid-template-columns: auto auto;
+                grid-template-rows: auto;
+                grid-template-areas: "info info" "mapa horarios";
+                margin: $margin1rem;
+                margin-left: 7rem;
+                .dondeEncontrarnos__p {
+                    grid-area: info;
+                    display: grid;
+                    grid-template-areas: "texto";
+                    .dondeEncontrarnos__p--texto {
+                        grid-area: texto;
+                    }
+                }
+                .dondeEncontrarnos__ul {
+                    grid-area: horarios;
+                    .dondeEncontrarnos__li--horarios {
+                        margin: $margin1rem;
+                    }
+                }
+                .dondeEncontrarnos__mapa {
+                    grid-area: mapa;
+                }
+            }
+        }
+    }
+    .contacto {
+        display: grid;
+        grid-template-areas: "titulo" "formulario" "wpp" "ig" "face";
+        justify-items: center;
+    }
+    .contacto__formulario {
+        grid-area: formulario;
+    }
+    .form-control {
+        margin-bottom: 1rem;
+    }
+    .contacto__titulo {
+        grid-area: titulo;
+        text-align: center;
+    }
+    .wpp,
+    .facebook,
+    .instagram {
+        margin-top: 3rem;
+        display: grid;
+        grid-template-areas: "logo alerta";
+        justify-items: center;
+    }
+    .instagram {
+        grid-area: ig;
+    }
+    .wpp {
+        grid-area: wpp;
+    }
+    .facebook {
+        grid-area: face;
+    }
+    .wppContacto {
+        grid-area: logo;
+        margin-bottom: 2rem;
+    }
+    .alert-warning {
+        width: 95%;
+        height: 25%;
+        margin-left: 2rem;
+        grid-area: alerta;
+    }
+    .col {
+        flex: auto;
+    }
+    .precioTotal {
+        margin-top: 2rem;
+        display: grid;
+        grid-template-columns: 5rem 20rem;
+        grid-template-areas: "total precio comprar";
+        .pTotal {
+            grid-area: total;
+            font-size: 1.5rem;
+            text-align: center;
+        }
+        .totalCarrito {
+            grid-area: precio;
+            font-size: 1.5rem;
+        }
+        .comprar {
+            justify-self: end;
+            grid-area: comprar;
+            font-size: 1.5rem;
+        }
+    }
+    .tablaHead {
+        display: grid;
+        grid-template-columns: 2.4fr 0.6fr 1fr;
+        grid-template-areas: "nombre precio cant";
+        border-style: solid;
+        border-color: white;
+        border-width: 0.2rem;
+        .tablaHeadN {
+            grid-area: nombre;
+            text-align: center;
+        }
+        .tablaHeadP {
+            grid-area: precio;
+        }
+        .tablaHeadC {
+            grid-area: cant;
+        }
+        .tablaHeadP,
+        .tablaHeadC,
+        .tablaHeadN {
+            font-size: 1.5rem;
+        }
+    }
+}
+
+@import "responsive";

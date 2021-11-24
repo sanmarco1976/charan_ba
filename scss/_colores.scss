@@ -1,0 +1,207 @@
+.header {
+    background-color: $colorSec;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: $colorNegro;
+}
+
+.nav-link:hover {
+    color: black!important;
+}
+
+.dropdown-menu {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    background-color: transparent!important;
+}
+
+.bg-light {
+    background-color: white !important;
+}
+
+.intro {
+    background-color: $colorSec;
+}
+
+.tarjetas {
+    background-color: $colorSec;
+}
+
+.carousel,
+.card {
+    background-color: $colorSec;
+    border: none;
+    width: 95%!important;
+}
+
+.dondeEncontrarnos__p--nombre,
+.dondeEncontrarnos__p--texto,
+td {
+    color: rgb(255, 255, 255)!important;
+}
+
+.dondeEncontrarnos__li--horarios {
+    color: rgb(255, 255, 255);
+}
+
+.dondeEstamos,
+.usuarios {
+    background-color: $colorSec;
+}
+
+.colorDirecc {
+    color: rgb(0, 0, 0);
+}
+
+.colorDes,
+.colorDes1 {
+    color: rgb(255, 255, 255);
+}
+
+.hora,
+.btn-secondary {
+    background-color: $colorNegro;
+    border-color: $colorNegro;
+}
+
+#secCate {
+    background-color: $colorSec;
+    color: rgb(255, 255, 255);
+}
+
+.divCate1__pCate,
+h2,
+p,
+.mediosContacto__medios {
+    color: rgb(255, 255, 255);
+}
+
+.contacto {
+    background-color: $colorSec;
+}
+
+.alert-warning {
+    background-color: $colorNegro;
+    border-color: white;
+}
+
+.lista__a {
+    color: $colorNegro;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link,
+.dropdown-item.active,
+.dropdown-item:active {
+    color: rgba(0, 0, 0, .9);
+    background-color: $colorSec;
+    border-radius: 1rem;
+}
+
+.btn-outline-warning {
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+}
+
+.btn-outline-warning:hover,
+.btn-check:active+.btn-outline-warning,
+.btn-check:checked+.btn-outline-warning,
+.btn-outline-warning.active,
+.btn-outline-warning.dropdown-toggle.show,
+.btn-outline-warning:active {
+    color: $colorNegro;
+    background-color: rgb(255, 255, 255);
+    border-color: $colorNegro;
+}
+
+.btn-check:active+.btn-outline-warning:focus,
+.btn-check:checked+.btn-outline-warning:focus,
+.btn-outline-warning.active:focus,
+.btn-outline-warning.dropdown-toggle.show:focus,
+.btn-outline-warning:active:focus,
+.btn-check:focus+.btn-outline-warning,
+.btn-outline-warning:focus {
+    box-shadow: 0 0 0 0 rgb(0, 0, 0 / 50%)!important;
+}
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+    border-style: solid;
+    border-color: white;
+    border-width: 0.2rem;
+}
+
+table {
+    margin-bottom: -0.1rem;
+}
+
+td {
+    width: 410px;
+}
+
+#tablaDom {
+    margin-left: 1rem;
+}
+
+.tdTitulo,
+.tdImg {
+    border-right: none;
+    padding: 0.5rem 0.5rem;
+}
+
+.tdImg {
+    width: 170px;
+}
+
+.tdBorrar {
+    border-left: none;
+    width: 80px;
+}
+
+#tabla {
+    margin-bottom: -0.35rem;
+}
+
+td.tdPrecio,
+.tdTitulo,
+.tCant {
+    border-left: none;
+    border-right: none;
+}
+
+.tdPrecio {
+    width: 160px;
+}
+
+.tCant {
+    width: 150px;
+}
+
+.tdCant-input {
+    width: 50px;
+}
+
+.usuarios {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    width: 70%;
+    border-radius: 2rem;
+}
+
+.usuariosLi {
+    color: white;
+    list-style: none;
+    margin: 1rem;
+}

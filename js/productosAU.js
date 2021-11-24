@@ -1,0 +1,15 @@
+const nombreProductosElectronica = [
+    { id: 1, nombre: "Parlante Bluetooth Charge Mini", precio: 1900, img: "../imagen/parlante_charge_mini.jpg" },
+    { id: 2, nombre: "Parlante Bluetooth", precio: 1800, img: "../imagen/parlante_9072.jpg" },
+    { id: 3, nombre: "Parlante Bluetooth 802 con linterna", precio: 1800, img: "../imagen/parlante_mini_linterna.jpg" },
+    { id: 4, nombre: "Parlante Bluetooth ZQ", precio: 1840, img: "../imagen/parlante_9083.jpg" },
+    { id: 5, nombre: "Parlante Bluetooth 801", precio: 2800, img: "../imagen/parecido_charge.jpeg" },
+    { id: 6, nombre: "Parlante Bluetooth 096", precio: 2100, img: "../imagen/mini_radio.jpg" },
+    { id: 7, nombre: "Parlante mini bluetooth 887", precio: 1200, img: "../imagen/mini_blue.jpeg" },
+    { id: 8, nombre: "Parlante Bluetooth 131", precio: 3200, img: "../imagen/parlante_display.jpeg" },
+    { id: 9, nombre: "Parlante Bluetooth 2022", precio: 2800, img: "../imagen/radio_gorda.jpg" },
+    { id: 10, nombre: "Parlante de ducha bluetooth", precio: 1100, img: "../imagen/ducha.jpeg" },
+    { id: 11, nombre: "Parlante Bluetooth 905", precio: 4200, img: "../imagen/radio_facha.jpg" },
+    { id: 12, nombre: "lampara Bluethoot con Parlante y Control", precio: 1520, img: "../imagen/lamparaBluethoot.jpg" },
+    { id: 13, nombre: "Parlante Bluetooth y luces led 3020", precio: 3200, img: "../imagen/parlante_robot.jpeg" },
+]
