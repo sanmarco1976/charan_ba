@@ -1,0 +1,15 @@
+[
+    { "id": 43, "nombre": "Camara Web", "precio": 3200, "img": "../imagen/camara.jpeg" },
+    { "id": 44, "nombre": "Consola", "precio": 4100, "img": "../imagen/consola.jpeg" },
+    { "id": 45, "nombre": "Auricular BLUETOOTH", "precio": 1950, "img": "../imagen/p47.jpeg" },
+    { "id": 46, "nombre": "Webcam", "precio": 2800, "img": "../imagen/webcam2.jpg" },
+    { "id": 47, "nombre": "Soporte De TV Fijo", "precio": 870, "img": "../imagen/soporteTv.jpeg" },
+    { "id": 48, "nombre": "Joystick PS2", "precio": 1150, "img": "../imagen/joystick_ps2.jpeg" },
+    { "id": 49, "nombre": "Laser Multipunto Audio Rítmico", "precio": 3100, "img": "../imagen/multipunto.jpg" },
+    { "id": 50, "nombre": "Media Esfera Bluetooth", "precio": 3600, "img": "../imagen/media_bola.jpg" },
+    { "id": 51, "nombre": "Proyector de Estrellas", "precio": 1700, "img": "../imagen/media_bola_estrella.jpeg" },
+    { "id": 52, "nombre": "Reloj Proyector", "precio": 1660, "img": "../imagen/despertador_estrellas.jpg" },
+    { "id": 53, "nombre": "Repetidor de Wifi", "precio": 3500, "img": "../imagen/repetidor_wifi.jpeg" },
+    { "id": 54, "nombre": "Tablet 7″", "precio": 10500, "img": "../imagen/tablet.jpeg" },
+    { "id": 55, "nombre": "Zapatilla Redonda", "precio": 1700, "img": "../imagen/zapatilla.jpg" }
+]

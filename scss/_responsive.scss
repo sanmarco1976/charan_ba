@@ -49,57 +49,6 @@
     //     .tNombre,
     //     .tPrecio {
     //         font-size: 2.8rem;
-    .tablaJs {
-        width: 100%;
-    }
-    .tdTitulo {
-        width: 700px;
-    }
-    .tdImg {
-        width: 600px;
-    }
-    .tImg {
-        width: 10rem;
-        height: 10rem;
-    }
-    .tdBorrar {
-        width: 220px;
-    }
-    .tdPrecio {
-        width: 600px;
-    }
-    .tCant {
-        width: 300px;
-    }
-    td.tdPrecio {
-        text-align: center;
-    }
-    .btn-close {
-        width: 6em;
-        height: 6em;
-    }
-    .tdCant-input {
-        width: 4rem;
-        font-size: 1.4rem;
-    }
-    .body1 .tablaHead .tablaHeadP,
-    .body1 .tablaHead .tablaHeadC,
-    .body1 .tablaHead .tablaHeadN {
-        font-size: 2rem;
-    }
-    .tdTitulo,
-    .tdPrecio,
-    .tNombre,
-    .tPrecio {
-        font-size: 2rem;
-    }
-    .body1 .precioTotal .comprar {
-        font-size: 2rem;
-    }
-    .body1 .precioTotal .totalCarrito,
-    .body1 .precioTotal .pTotal {
-        font-size: 2rem;
-    }
 }
 
 //     .body1 .precioTotal .comprar {
@@ -113,30 +62,6 @@
 //         grid-template-columns: 30rem 20rem;
 //     }
 // }
-@media only screen and (max-width: 1440px) {
-    .tablaJs {
-        width: 100%;
-    }
-    .tdTitulo {
-        width: 550px;
-    }
-    .tdImg {
-        width: 220px;
-    }
-    .tdBorrar {
-        width: 220px;
-    }
-    .tdPrecio {
-        width: 260px;
-    }
-    .tCant {
-        width: 110px;
-    }
-    td.tdPrecio {
-        text-align: center;
-    }
-}
-
 @media only screen and (max-width: 1024px) {
     .nav .nav__bar ul li a {
         font-size: 1.3rem;
@@ -291,6 +216,13 @@
     .body1 .btn-outline-warning {
         width: 10rem;
     }
+    th,
+    td,
+    .btn-danger,
+    .btn-info,
+    #comprar-carrito {
+        font-size: 1rem;
+    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -315,6 +247,13 @@
                 height: 2rem;
             }
         }
+    }
+    .divCate1__imgCate {
+        width: 15rem;
+        height: 14rem;
+    }
+    .body1 .btn-outline-warning {
+        width: 18rem;
     }
     .nav {
         display: flex;
@@ -485,27 +424,6 @@
             }
         }
     }
-    .tImg {
-        width: 3rem;
-        height: 3rem;
-    }
-    .body1 .tablaHead .tablaHeadP,
-    .body1 .tablaHead .tablaHeadC,
-    .body1 .tablaHead .tablaHeadN {
-        font-size: 1rem;
-    }
-    .tdTitulo,
-    .tdPrecio,
-    .tNombre,
-    .tPrecio {
-        font-size: 1.2rem;
-    }
-    .tdCant-input {
-        width: 25px;
-    }
-    .body1 .btn-outline-warning {
-        width: 15rem;
-    }
     .swal2-popup {
         width: 22rem!important;
     }
@@ -521,6 +439,24 @@
     }
     .card-group {
         width: 18rem;
+    }
+    th,
+    td,
+    .btn-danger,
+    .btn-info,
+    #comprar-carrito {
+        font-size: 0.7rem;
+    }
+    .btn-group-sm>.btn,
+    .btn-sm {
+        padding: 0.2rem 0.2rem;
+    }
+    .card {
+        margin-left: 0rem;
+        width: 100%!important;
+    }
+    .card-body {
+        padding: 0.4rem 0.4rem;
     }
 }
 
@@ -613,13 +549,6 @@
     }
     .body1 .btn-outline-warning {
         width: 13rem;
-    }
-    .tdTitulo {
-        padding: 0rem 0rem;
-    }
-    .tImg {
-        width: 2.6rem;
-        height: 2.6rem;
     }
     .body1 .bodyCate,
     .body1 .bodyCate--acce,

@@ -119,9 +119,25 @@ footer {
     font-family: 'Zilla Slab', serif;
 }
 
-.tdTitulo,
-.tdPrecio,
-.tNombre,
-.tPrecio {
-    font-size: 1.4rem;
+#comprar-carrito {
+    align-self: flex-end;
+    width: 10rem;
+    font-size: 1.5rem;
+    border: 3px solid;
+}
+
+.btn-danger,
+.btn-info {
+    border: 3px solid;
+    font-size: 1.5rem;
+}
+
+th,
+td {
+    font-size: 1.5rem;
+}
+
+.card,
+.btn-primary {
+    margin-left: 1rem;
 }

@@ -34,7 +34,8 @@
 
 .dondeEncontrarnos__p--nombre,
 .dondeEncontrarnos__p--texto,
-td {
+td,
+th {
   color: white !important; }
 
 .dondeEncontrarnos__li--horarios {
@@ -123,49 +124,35 @@ table {
 td {
   width: 410px; }
 
-#tablaDom {
-  margin-left: 1rem; }
-
-.tdTitulo,
-.tdImg {
-  border-right: none;
-  padding: 0.5rem 0.5rem; }
-
-.tdImg {
-  width: 170px; }
-
-.tdBorrar {
-  border-left: none;
-  width: 80px; }
-
 #tabla {
   margin-bottom: -0.35rem; }
 
-td.tdPrecio,
-.tdTitulo,
-.tCant {
-  border-left: none;
-  border-right: none; }
-
-.tdPrecio {
-  width: 160px; }
-
-.tCant {
-  width: 150px; }
-
-.tdCant-input {
-  width: 50px; }
-
 .usuarios {
-  margin-left: 1rem;
   margin-top: 1rem;
-  width: 70%;
+  width: 95%;
   border-radius: 2rem; }
 
 .usuariosLi {
   color: white;
   list-style: none;
   margin: 1rem; }
+
+.accordion-button {
+  background-color: #FF5900;
+  width: 95%;
+  margin-top: 2rem;
+  color: white; }
+
+.accordion-button:not(.collapsed) {
+  background-color: #FF5900;
+  color: white; }
+
+#comprar-carrito,
+.btn-danger,
+.btn-info {
+  color: white;
+  background-color: #FF5900;
+  border-color: white; }
 
 .header {
   align-items: center; }
@@ -266,11 +253,24 @@ footer {
   font-size: 0.9rem;
   font-family: 'Zilla Slab', serif; }
 
-.tdTitulo,
-.tdPrecio,
-.tNombre,
-.tPrecio {
-  font-size: 1.4rem; }
+#comprar-carrito {
+  align-self: flex-end;
+  width: 10rem;
+  font-size: 1.5rem;
+  border: 3px solid; }
+
+.btn-danger,
+.btn-info {
+  border: 3px solid;
+  font-size: 1.5rem; }
+
+th,
+td {
+  font-size: 1.5rem; }
+
+.card,
+.btn-primary {
+  margin-left: 1rem; }
 
 .header .imgWpp,
 .header .imgIg,
@@ -760,61 +760,6 @@ footer {
   .dondeEncontrarnos__mapa {
     margin-bottom: 1rem; } }
 
-@media only screen and (max-width: 2560px) {
-  .tablaJs {
-    width: 100%; }
-  .tdTitulo {
-    width: 700px; }
-  .tdImg {
-    width: 600px; }
-  .tImg {
-    width: 10rem;
-    height: 10rem; }
-  .tdBorrar {
-    width: 220px; }
-  .tdPrecio {
-    width: 600px; }
-  .tCant {
-    width: 300px; }
-  td.tdPrecio {
-    text-align: center; }
-  .btn-close {
-    width: 6em;
-    height: 6em; }
-  .tdCant-input {
-    width: 4rem;
-    font-size: 1.4rem; }
-  .body1 .tablaHead .tablaHeadP,
-  .body1 .tablaHead .tablaHeadC,
-  .body1 .tablaHead .tablaHeadN {
-    font-size: 2rem; }
-  .tdTitulo,
-  .tdPrecio,
-  .tNombre,
-  .tPrecio {
-    font-size: 2rem; }
-  .body1 .precioTotal .comprar {
-    font-size: 2rem; }
-  .body1 .precioTotal .totalCarrito,
-  .body1 .precioTotal .pTotal {
-    font-size: 2rem; } }
-
-@media only screen and (max-width: 1440px) {
-  .tablaJs {
-    width: 100%; }
-  .tdTitulo {
-    width: 550px; }
-  .tdImg {
-    width: 220px; }
-  .tdBorrar {
-    width: 220px; }
-  .tdPrecio {
-    width: 260px; }
-  .tCant {
-    width: 110px; }
-  td.tdPrecio {
-    text-align: center; } }
-
 @media only screen and (max-width: 1024px) {
   .nav .nav__bar ul li a {
     font-size: 1.3rem;
@@ -925,7 +870,13 @@ footer {
   .body1 .form-control {
     width: 80%; }
   .body1 .btn-outline-warning {
-    width: 10rem; } }
+    width: 10rem; }
+  th,
+  td,
+  .btn-danger,
+  .btn-info,
+  #comprar-carrito {
+    font-size: 1rem; } }
 
 @media only screen and (max-width: 480px) {
   .grilla {
@@ -945,6 +896,11 @@ footer {
       .header .header__icono .imgFace {
         width: 2rem;
         height: 2rem; }
+  .divCate1__imgCate {
+    width: 15rem;
+    height: 14rem; }
+  .body1 .btn-outline-warning {
+    width: 18rem; }
   .nav {
     display: flex;
     grid-template-areas: "logo";
@@ -1063,22 +1019,6 @@ footer {
     .body1 .footer1 .footer .footer__logo {
       width: 6rem;
       height: 6rem; }
-  .tImg {
-    width: 3rem;
-    height: 3rem; }
-  .body1 .tablaHead .tablaHeadP,
-  .body1 .tablaHead .tablaHeadC,
-  .body1 .tablaHead .tablaHeadN {
-    font-size: 1rem; }
-  .tdTitulo,
-  .tdPrecio,
-  .tNombre,
-  .tPrecio {
-    font-size: 1.2rem; }
-  .tdCant-input {
-    width: 25px; }
-  .body1 .btn-outline-warning {
-    width: 15rem; }
   .swal2-popup {
     width: 22rem !important; }
   .swal2-container.swal2-center > .swal2-popup,
@@ -1090,7 +1030,21 @@ footer {
   .carousel-inner {
     width: 90%; }
   .card-group {
-    width: 18rem; } }
+    width: 18rem; }
+  th,
+  td,
+  .btn-danger,
+  .btn-info,
+  #comprar-carrito {
+    font-size: 0.7rem; }
+  .btn-group-sm > .btn,
+  .btn-sm {
+    padding: 0.2rem 0.2rem; }
+  .card {
+    margin-left: 0rem;
+    width: 100% !important; }
+  .card-body {
+    padding: 0.4rem 0.4rem; } }
 
 @media only screen and (max-width: 376px) {
   .body1 .body__dondeEstamos .dondeEstamos .dondeEncontrarnos .dondeEncontrarnos__mapa {
@@ -1161,11 +1115,6 @@ footer {
     font-size: 2.3rem; }
   .body1 .btn-outline-warning {
     width: 13rem; }
-  .tdTitulo {
-    padding: 0rem 0rem; }
-  .tImg {
-    width: 2.6rem;
-    height: 2.6rem; }
   .body1 .bodyCate, .body1 .bodyCate--acce, .body1 .bodyCate--audio, .body1 .bodyCate--belle, .body1 .bodyCate--electro, .body1 .bodyCate--hyd, .body1 .bodyCate--ilu, .body1 .bodyCate--segu,
   .body1 .bodyCate--acce,
   .body1 .bodyCate--audio,

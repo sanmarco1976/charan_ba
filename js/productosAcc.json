@@ -1,0 +1,17 @@
+[
+    { "id": 1, "nombre": "Aro Selfie Para Celular", "precio": 460, "img": "../imagen/aroSelfieCelu.jpg" },
+    { "id": 2, "nombre": "Trípode para celular", "precio": 2300, "img": "../imagen/tripo k07.jpeg" },
+    { "id": 3, "nombre": "Mochila Antirrobo", "precio": 3200, "img": "../imagen/mochila.jpeg" },
+    { "id": 4, "nombre": "Aro de luz led 7″ con trípode", "precio": 1600, "img": "../imagen/aro7.jpeg" },
+    { "id": 5, "nombre": "Aro Luz Selfie 6″ 48 Led Con Base Para Micrófono y Celular", "precio": 3450, "img": "../imagen/aro_micro_celu.jpg" },
+    { "id": 6, "nombre": "Cargador Usb 2 Puertos", "precio": 350, "img": "../imagen/cargador2_1.jpg" },
+    { "id": 7, "nombre": "Funda bolsa sumergible", "precio": 200, "img": "../imagen/funda_sumergible.jpg" },
+    { "id": 8, "nombre": "Globo LED", "precio": 290, "img": "../imagen/globo.jpg" },
+    { "id": 9, "nombre": "Set de luces para bicicleta de silicona", "precio": 400, "img": "../imagen/luz_bici.jpeg" },
+    { "id": 10, "nombre": "Velocimetro para Bicicleta", "precio": 1200, "img": "../imagen/velocimetro.jfif" },
+    { "id": 11, "nombre": "Popit Pop It Popits Multicolor Antiestrés Silicona", "precio": 748, "img": "../imagen/popit.png" },
+    { "id": 12, "nombre": "Mini Pop It Popit Silicona Popit Colgante", "precio": 184, "img": "../imagen/popit_llavero.jpg" },
+    { "id": 13, "nombre": "Palo extensible para selfie", "precio": 550, "img": "../imagen/palo_selfie.jpeg" },
+    { "id": 10, "nombre": "Cargador Robot para Auto", "precio": 2850, "img": "../imagen/cargador_robot.jfif" },
+    { "id": 11, "nombre": "Buscapolo", "precio": 2850, "img": "../imagen/tipo_termometro.jfif" }
+]
