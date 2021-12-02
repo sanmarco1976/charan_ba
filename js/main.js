@@ -56,9 +56,11 @@ $.get(APIURL, function(respuesta, estado) {
 document.addEventListener('DOMContentLoaded', () => {
     if (localStorage.getItem('miCarrito')) {
         carrito = JSON.parse(localStorage.getItem('miCarrito'));
-        añadirAlCarrito();
+        sumarAlCarrito();
     }
 });
+
+
 card.addEventListener('click', e => {
     agregarAlCarrito(e);
 });
@@ -97,11 +99,11 @@ const infoCarrito = objecto => {
         producto.cant = carrito[producto.id].cant + 1;
     }
     carrito[producto.id] = {...producto }
-    añadirAlCarrito();
+    sumarAlCarrito();
 }
 
 // crea la tabla del carrito y pinta los datos
-const añadirAlCarrito = () => {
+const sumarAlCarrito = () => {
     items.innerHTML = '';
     Object.values(carrito).forEach(producto => {
         templateCarrito.querySelector('th').textContent = producto.id;
@@ -142,7 +144,7 @@ const precioTotal = () => {
     //funcion para vaciar el carrito, si hace click se eliminan todos los datos del array
     vaciarCarrito.addEventListener('click', () => {
         carrito = {};
-        añadirAlCarrito();
+        sumarAlCarrito();
     })
 }
 const accionBotones = e => {
@@ -151,7 +153,7 @@ const accionBotones = e => {
         const producto = carrito[e.target.dataset.id];
         producto.cant = carrito[e.target.dataset.id].cant + 1;
         carrito[e.target.dataset.id] = {...producto };
-        añadirAlCarrito();
+        sumarAlCarrito();
     }
     //si pulsa el boton - se resta uno a la cantidad
     if (e.target.classList.contains('btn-danger')) {
@@ -160,7 +162,7 @@ const accionBotones = e => {
         if (producto.cant === 0) {
             delete carrito[e.target.dataset.id];
         }
-        añadirAlCarrito();
+        sumarAlCarrito();
     }
     e.stopPropagation();
 }
@@ -170,7 +172,7 @@ $('#comprar-carrito').click(function() {
     items.innerHTML = '';
     precioTotal();
     carrito = {};
-    añadirAlCarrito();
+    sumarAlCarrito();
     Swal.fire(
         'Listo!',
         'Ya Se Registro Su Compra!',
