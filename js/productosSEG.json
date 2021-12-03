@@ -1,8 +1,8 @@
 [
-    { "id": 112, "nombre": "Camara IP Wifi", "precio": 4850, "img": "../imagen/camaraIPWifi.jpeg" },
-    { "id": 113, "nombre": "Alarma detector de humo", "precio": 400, "img": "../imagen/DETECTOR-DE-HUMO.jpg" },
-    { "id": 114, "nombre": "Lámpara Espía", "precio": 5250, "img": "../imagen/camlamp.jpg" },
-    { "id": 115, "nombre": "Alarma sensor con movimiento", "precio": 1800, "img": "../imagen/alarmaSensor.jpeg" },
-    { "id": 116, "nombre": "Baliza solar ms-465", "precio": 1700, "img": "../imagen/baliza.jpg" },
-    { "id": 117, "nombre": "Timbre Inalámbrico", "precio": 920, "img": "../imagen/timbre.jpg" }
+    { "id": 126, "nombre": "Camara IP Wifi", "precio": 4850, "img": "../imagen/camaraIPWifi.jpeg" },
+    { "id": 127, "nombre": "Alarma detector de humo", "precio": 400, "img": "../imagen/DETECTOR-DE-HUMO.jpg" },
+    { "id": 128, "nombre": "Lámpara Espía", "precio": 5250, "img": "../imagen/camlamp.jpg" },
+    { "id": 129, "nombre": "Alarma sensor con movimiento", "precio": 1800, "img": "../imagen/alarmaSensor.jpeg" },
+    { "id": 130, "nombre": "Baliza solar ms-465", "precio": 1700, "img": "../imagen/baliza.jpg" },
+    { "id": 131, "nombre": "Timbre Inalámbrico", "precio": 920, "img": "../imagen/timbre.jpg" }
 ]

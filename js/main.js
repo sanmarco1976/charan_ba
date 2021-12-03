@@ -167,18 +167,7 @@ const accionBotones = e => {
     e.stopPropagation();
 }
 
-//al presionar el boton comprar se elimina todo, en un futuro llegaran los datos de la compra
-$('#comprar-carrito').click(function() {
-    items.innerHTML = '';
-    precioTotal();
-    carrito = {};
-    sumarAlCarrito();
-    Swal.fire(
-        'Listo!',
-        'Ya Se Registro Su Compra!',
-        'success'
-    );
-});
+
 
 //si apretamos en ver carrito se cambia a ocultar carrito
 $("#botonCarritoo").click(function() {

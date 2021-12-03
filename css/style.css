@@ -154,6 +154,10 @@ td {
   background-color: #FF5900;
   border-color: white; }
 
+.comprar {
+  color: white !important;
+  text-decoration: none !important; }
+
 .header {
   align-items: center; }
 
