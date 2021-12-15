@@ -1,14 +1,18 @@
 [
     { "id": 112, "nombre": "Cortina 3×3 LED", "precio": 4800, "img": "../imagen/cortina3x3.jpeg" },
     { "id": 113, "nombre": "Cortina 3×2 LED", "precio": 4200, "img": "../imagen/cortina3x3.jpeg" },
+    { "id": 133, "nombre": "Red Led 1.5", "precio": 1500, "img": "../imagen/alambreLed.jpeg" },
+    { "id": 133, "nombre": "Caja de regalo con Luz", "precio": 7500, "img": "../imagen/regalos.jpeg" },
     { "id": 114, "nombre": "Reno y Trineo LED", "precio": 8000, "img": "../imagen/trineoLed.jpeg" },
     { "id": 115, "nombre": "Guirnalda exterior", "precio": 4100, "img": "../imagen/guirnaldaExterior.jpeg" },
     { "id": 125, "nombre": "Guirnalda exterior Multicolor", "precio": 4100, "img": "../imagen/guirnalad exte multi.jfif" },
     { "id": 116, "nombre": "Árbol LED", "precio": 1783, "img": "../imagen/arbolchico.jpeg" },
+    { "id": 134, "nombre": "Alambre LED 30 luces", "precio": 380, "img": "../imagen/alambreLuces.jpeg" },
     { "id": 117, "nombre": "Guirnalda 9mts", "precio": 1450, "img": "../imagen/guirnalda9mt.jpeg" },
     { "id": 118, "nombre": "Guirnalda solar 10mts", "precio": 1600, "img": "../imagen/guirnalda10mt.jpeg" },
     { "id": 119, "nombre": "Guirnalda solar 3.5mts", "precio": 1350, "img": "../imagen/guirnalda_3mtExte.jpeg" },
     { "id": 120, "nombre": "Guirnalda 5mts", "precio": 700, "img": "../imagen/gurinalda 5mts.jpeg" },
+    { "id": 135, "nombre": "Guirnalda 4mts", "precio": 600, "img": "../imagen/bolas_4mt.jpeg" },
     { "id": 121, "nombre": "Guirnalda LED 9mt", "precio": 800, "img": "../imagen/guirnalda_9mt.jpeg" },
     { "id": 122, "nombre": "Guirnalda luces LED 7mts", "precio": 750, "img": "../imagen/led100.jpg" },
     { "id": 82, "nombre": "Guirnalda LED x50", "precio": 600, "img": "../imagen/guirnalda_50.jpeg" },
@@ -38,9 +42,11 @@
     { "id": 104, "nombre": "Luces led lluvia ROSA", "precio": 2100, "img": "../imagen/lluvia_rosa.jpeg" },
     { "id": 105, "nombre": "Pizarra luminosa corazón", "precio": 1300, "img": "../imagen/pizarra_corazon.jpg" },
     { "id": 106, "nombre": "Pizarra luminosa led 30×20", "precio": 1600, "img": "../imagen/pizarra_encastre.jpg" },
-    { "id": 107, "nombre": "Luz protón 36 LED", "precio": 4100, "img": "../imagen/proton_36.png" },
-    { "id": 108, "nombre": "Luz protón 54 LED", "precio": 5800, "img": "../imagen/proton-54.jpg" },
+    { "id": 132, "nombre": "Luz protón 18 LED", "precio": 3900, "img": "../imagen/proton.jpeg" },
+    { "id": 107, "nombre": "Luz protón 36 LED", "precio": 4700, "img": "../imagen/proton_36.png" },
+    { "id": 108, "nombre": "Luz protón 54 LED", "precio": 6400, "img": "../imagen/proton-54.jpg" },
     { "id": 109, "nombre": "Reflector LED 20w", "precio": 3050, "img": "../imagen/reflector_rgb.jpg" },
     { "id": 110, "nombre": "Cartel 1 Metro", "precio": 18600, "img": "../imagen/cartel1Metro.jpg" }
+
 
 ]
